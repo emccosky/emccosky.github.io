@@ -3,8 +3,21 @@
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
  *
- * Made By MaterializeCSS.com
  */
+
+/* ===== CUSTOM COLORS =====*/
+.light-gray {
+	@extend	.grey .lighten-1;
+}
+.light-gray-text {
+	@extend	.grey-text .text-lighten-1;
+}
+.dark-gray {
+	@extend	.grey .darken-3;
+}
+.dark-gray-text {
+	@extend	.grey-text .text-darken-3;
+}
 
 nav ul a,
 nav .brand-logo {
@@ -54,4 +67,19 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.lato-header {
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+}
+@media only screen and (max-width : 992px) {
+	.lato-header {
+		padding-left: 20px;
+	}
+}
+
+.lato {
+	font-family: "Lato", sans-serif;
 }
