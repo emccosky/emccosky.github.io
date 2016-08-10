@@ -83,3 +83,7 @@ footer.page-footer {
 .lato {
 	font-family: "Lato", sans-serif;
 }
+
+nav .transparent-bg {
+    backface-visibility: hidden !important;
+}
