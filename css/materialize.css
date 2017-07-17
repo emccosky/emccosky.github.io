@@ -4528,16 +4528,16 @@ small {
 }
 
 .card.small .card-image, .card.medium .card-image, .card.large .card-image {
-  max-height: 60%;
+  max-height: 80%;
   overflow: hidden;
 }
 
 .card.small .card-image + .card-content, .card.medium .card-image + .card-content, .card.large .card-image + .card-content {
-  max-height: 40%;
+  max-height: 20%;
 }
 
 .card.small .card-content, .card.medium .card-content, .card.large .card-content {
-  max-height: 100%;
+  max-height: 20%;
   overflow: hidden;
 }
 
@@ -4639,7 +4639,7 @@ small {
 }
 
 .card .card-content {
-  padding: 24px;
+  padding: 12px;
   border-radius: 0 0 2px 2px;
 }
 
